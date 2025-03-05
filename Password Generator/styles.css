@@ -1,0 +1,37 @@
+main {
+    text-align: center;
+}
+
+.buttonContainer {
+    display: block;
+    text-align: center;
+    padding: 15px
+}
+
+#generateButton {
+    padding: 10px 20px;
+    font-family: Helvetica;
+    font-size: 2em;
+    background-color: rgb(140, 203, 255);
+    transition: background-color .25s;
+}
+
+#generateButton:hover {
+    background-color: rgb(19, 99, 247)
+}
+
+.passwordLabel {
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+
+#generatedPass {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding:10px;
+}
